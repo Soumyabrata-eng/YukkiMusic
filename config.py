@@ -61,18 +61,18 @@ autoclean = []
 
 # Images
 START_IMG_URL = getenv("START_IMG_URL", "https://tiny.cc/erisnew")
-PING_IMG_URL = getenv("PING_IMG_URL","Yukkimusic/assets/eris.jpeg)
-PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL","Yukkimusic/assets/eris.jpeg)
-GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL","Yukkimusic/assets/eris.jpeg)
-STATS_IMG_URL = getenv("STATS_IMG_URL","Yukkimusic/assets/eris.jpeg)
-TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL","Yukkimusic/assets/eris.jpeg)
-TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL","Yukkimusic/assets/eris.jpeg)
-STREAM_IMG_URL = getenv("STREAM_IMG_URL","Yukkimusic/assets/eris.jpeg) 
-SOUNDCLOUD_IMG_URL =getenv("SOUNDCLOUD_IMG_URL","Yukkimusic/assets/eris.jpeg)
-YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL","Yukkimusic/assets/eris.jpeg)
-SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL","Yukkimusic/assets/eris.jpeg)
-SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL","Yukkimusic/assets/eris.jpeg)
-SPOTIFY_PLAYLIST_IMG_URL = getenv("SPOTIFY_PLAYLIST_IMG_URL","Yukkimusic/assets/eris.jpeg)
+PING_IMG_URL = getenv("PING_IMG_URL","assets/eris.jpeg)
+PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL","assets/eris.jpeg)
+GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL","assets/eris.jpeg)
+STATS_IMG_URL = getenv("STATS_IMG_URL","assets/eris.jpeg)
+TELEGRAM_AUDIO_URL = getenv("TELEGRAM_AUDIO_URL","assets/eris.jpeg)
+TELEGRAM_VIDEO_URL = getenv("TELEGRAM_VIDEO_URL","assets/eris.jpeg)
+STREAM_IMG_URL = getenv("STREAM_IMG_URL","assets/eris.jpeg) 
+SOUNDCLOUD_IMG_URL =getenv("SOUNDCLOUD_IMG_URL","assets/eris.jpeg)
+YOUTUBE_IMG_URL = getenv("YOUTUBE_IMG_URL","assets/eris.jpeg)
+SPOTIFY_ARTIST_IMG_URL = getenv("SPOTIFY_ARTIST_IMG_URL","assets/eris.jpeg)
+SPOTIFY_ALBUM_IMG_URL = getenv("SPOTIFY_ALBUM_IMG_URL","assets/eris.jpeg)
+SPOTIFY_PLAYLIST_IMG_URL = getenv("SPOTIFY_PLAYLIST_IMG_URL","assets/eris.jpeg)
 
 
 def time_to_seconds(time):
