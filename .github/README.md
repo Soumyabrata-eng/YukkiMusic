@@ -45,14 +45,19 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
 ## 🖇 VPS Deployment
 
 ```console
-shikhar@MacBook~ $ git clone https://github.com/TeamYukki/YukkiMusicBot
-shikhar@MacBook~ $ cd YukkiMusicBot
-shikhar@MacBook~ $ sudo bash setup
-```
-> Setup will install each and every requirement, nodejs and pip packages automatically. After successfull installation of requirements , setup will ask you to input your vars.
-> Please input your vars correctly.
-```console
-shikhar@MacBook~ $ bash start
+$Soumyabrata/Yukki~ $ sudo apt-get update && sudo apt-get upgrade -y
+$Soumyabrata/Yukki~ $ sudo apt-get install python3-pip ffmpeg -y
+$Soumyabrata/Yukki~ $ sudo pip3 install -U pip
+$Soumyabrata/Yukki~ $ curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
+$Soumyabrata/Yukki~ $ sudo apt install git
+$Soumyabrata/Yukki~ $ git clone https://github.com/Soumyabrata-eng/YukkiMusicBot && cd YukkiMusic
+$Soumyabrata/Yukki~ $ pip3 install -U -r requirements.txt
+
+Edit the variables by <code>vi sample.env</code> and then click <code>CTRL+C</code> and :wq to save env.
+
+$Soumyabrata/Yukki~ $ cp sample.env .env
+$Soumyabrata/Yukki~ $ sudo apt install tmux && pkill -9 tmux && pkill -9 python3 && tmux
+$Soumyabrata/Yukki~ $ bash start
 ```
 ## 🏷 Support
 
