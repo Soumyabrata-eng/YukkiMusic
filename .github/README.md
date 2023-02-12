@@ -1,6 +1,6 @@
 <img src="https://telegra.ph/file/c0e014ff34f34d1056627.png" align="right" width="200" height="200"/>
 
-# Yukki Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+# Yukki Music Bot
 
 [Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
 
@@ -57,8 +57,6 @@ This project is based on [Pyrogram](https://github.com/pyrogram) and [Py-Tgcalls
 
 ## 🖇 VPS Deployment
 
-> Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
-
 ```console
 shikhar@MacBook~ $ git clone https://github.com/TeamYukki/YukkiMusicBot
 shikhar@MacBook~ $ cd YukkiMusicBot
@@ -69,11 +67,6 @@ shikhar@MacBook~ $ sudo bash setup
 ```console
 shikhar@MacBook~ $ bash start
 ```
-
-> Not Getting VPS Method? [Watch Tutorial](https://t.me/TheYukki/2275)
-
-<img src="https://telegra.ph/file/6b75b57da50ef1183fcdc.jpg" align="center">
-
 ## 🏷 Support
 
 Reach out to the maintainer at one of the following places:
