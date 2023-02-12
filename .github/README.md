@@ -50,7 +50,7 @@ $Soumyabrata/Yukki~ $ sudo apt-get install python3-pip ffmpeg -y
 $Soumyabrata/Yukki~ $ sudo pip3 install -U pip
 $Soumyabrata/Yukki~ $ curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
 $Soumyabrata/Yukki~ $ sudo apt install git
-$Soumyabrata/Yukki~ $ git clone https://github.com/Soumyabrata-eng/YukkiMusicBot && cd YukkiMusic
+$Soumyabrata/Yukki~ $ git clone https://github.com/Soumyabrata-eng/YukkiMusic && cd YukkiMusic
 $Soumyabrata/Yukki~ $ pip3 install -U -r requirements.txt
 
 Edit the variables by <code>vi sample.env</code> and then click <code>CTRL+C</code> and :wq to save env.
